@@ -10,6 +10,7 @@ RUN chmod +x minecraft_server.1.10.2.jar
 
 EXPOSE 25565 25575
 
+
 VOLUME ["/data"]
 
 
