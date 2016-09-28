@@ -12,7 +12,5 @@ EXPOSE 25565 25575
 
 VOLUME ["/data"]
 
-RUN echo "eula=true" > eula.txt
 
-RUN java -Xmx1024M -Xms1024M -jar minecraft_server.1.10.2.jar nogui
 
